@@ -97,7 +97,7 @@ $ git branch
 Add a message between the following lines:
 
 <hr>
-PERSONAL MESSAGE
+Mohammed EL MASMOUDI
 <hr>
 
 With `$ git status` you can check the status of your Git repository.
