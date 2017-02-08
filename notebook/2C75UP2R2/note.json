@@ -203,8 +203,8 @@
     },
     {
       "title": "Shell cell",
-      "text": "%sh\necho \"Hello world\"",
-      "dateUpdated": "Feb 1, 2017 6:51:19 AM",
+      "text": "%sh\n\necho \"Hello world\"",
+      "dateUpdated": "Feb 8, 2017 11:21:37 AM",
       "config": {
         "enabled": true,
         "title": true,
@@ -245,8 +245,8 @@
     },
     {
       "title": "Python cell",
-      "text": "%python\nprint(\"Hello world\")",
-      "dateUpdated": "Jan 25, 2017 8:33:22 AM",
+      "text": "%python\n\nprint(1+2)\nprint(\"Hello world\")\n",
+      "dateUpdated": "Feb 8, 2017 11:24:02 AM",
       "config": {
         "enabled": true,
         "title": true,
@@ -264,8 +264,10 @@
             "pinCols": []
           }
         },
-        "editorMode": "ace/mode/python",
-        "colWidth": 4.0
+        "editorMode": "ace/mode/scala",
+        "colWidth": 4.0,
+        "editorHide": false,
+        "tableHide": false
       },
       "settings": {
         "params": {},
@@ -276,24 +278,24 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "Hello world\n"
+        "msg": "3\nHello world\n"
       },
       "dateCreated": "Jan 25, 2017 8:32:04 AM",
-      "dateStarted": "Jan 25, 2017 8:33:22 AM",
-      "dateFinished": "Jan 25, 2017 8:33:23 AM",
+      "dateStarted": "Feb 8, 2017 11:24:02 AM",
+      "dateFinished": "Feb 8, 2017 11:24:03 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Spark/Scala cell",
-      "text": "println(\"Hello world\")",
-      "dateUpdated": "Jan 25, 2017 8:33:26 AM",
+      "text": "println(\"Hello world\")\nprintln(1+30)",
+      "dateUpdated": "Feb 8, 2017 11:34:05 AM",
       "config": {
         "enabled": true,
         "title": true,
         "graph": {
           "mode": "table",
-          "height": 300.0,
+          "height": 93.14999389648438,
           "optionOpen": false,
           "keys": [],
           "values": [],
@@ -317,11 +319,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "Hello world\n"
+        "msg": "Hello world\n31\n"
       },
       "dateCreated": "Jan 25, 2017 8:32:04 AM",
-      "dateStarted": "Jan 25, 2017 8:33:26 AM",
-      "dateFinished": "Jan 25, 2017 8:33:59 AM",
+      "dateStarted": "Feb 8, 2017 11:33:59 AM",
+      "dateFinished": "Feb 8, 2017 11:34:15 AM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
@@ -2141,24 +2143,24 @@
   "name": "Practice",
   "id": "2C75UP2R2",
   "angularObjects": {
-    "2C93MQCCX:shared_process": [],
-    "2CAFQY6K3:shared_process": [],
-    "2C71Z8V22:shared_process": [],
-    "2C74PSEZQ:shared_process": [],
-    "2C7936H5V:shared_process": [],
-    "2C6WY8JHA:shared_process": [],
-    "2C8CCCVZ2:shared_process": [],
-    "2C9JTS6JQ:shared_process": [],
-    "2C91JKV9H:shared_process": [],
-    "2C8N1PP7C:shared_process": [],
-    "2C7YTW7VT:shared_process": [],
-    "2C85G18U9:shared_process": [],
-    "2C9XYSTEH:shared_process": [],
-    "2CA474ZG3:shared_process": [],
-    "2C8JNXQ9U:shared_process": [],
-    "2C827138T:shared_process": [],
-    "2CAA7GXEJ:shared_process": [],
-    "2C8W1GCP8:shared_process": []
+    "2C99Y5VR5:shared_process": [],
+    "2CA7ASHJR:shared_process": [],
+    "2CANPTJGU:shared_process": [],
+    "2C94QS4M9:shared_process": [],
+    "2CB79434M:shared_process": [],
+    "2C8TEPKBC:shared_process": [],
+    "2CAVHN7HS:shared_process": [],
+    "2CA8XGK68:shared_process": [],
+    "2C8UZP6Z8:shared_process": [],
+    "2C95SXKVU:shared_process": [],
+    "2CA77K9YR:shared_process": [],
+    "2CBDTVFRT:shared_process": [],
+    "2C8EGDTKH:shared_process": [],
+    "2C7W3QP84:shared_process": [],
+    "2C8VX9HMK:shared_process": [],
+    "2CAPH7572:shared_process": [],
+    "2C9DEZBBN:shared_process": [],
+    "2C9AVNKZ9:shared_process": []
   },
   "config": {
     "looknfeel": "default"
