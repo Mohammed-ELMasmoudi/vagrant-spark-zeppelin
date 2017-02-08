@@ -408,7 +408,7 @@
     {
       "title": "Some arithmetic",
       "text": "8 * 5 + 2",
-      "dateUpdated": "Jan 25, 2017 8:32:04 AM",
+      "dateUpdated": "Feb 8, 2017 12:35:40 PM",
       "config": {
         "enabled": true,
         "title": true,
@@ -433,20 +433,21 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "res2: Int \u003d 42\n"
+        "msg": "\nres12: Int \u003d 42\n"
       },
       "dateCreated": "Jan 25, 2017 8:32:04 AM",
-      "status": "READY",
-      "errorMessage": "",
+      "dateStarted": "Feb 8, 2017 12:35:40 PM",
+      "dateFinished": "Feb 8, 2017 12:35:40 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
       "title": "Declaring variables",
-      "text": "val a \u003d 3 // val defines an immutable value\nvar b : Int \u003d 5 // var defines a mutable variable\nprintln(a + b)\n\nb \u003d 42\nprintln(a + b)\n\n// Note that the type of a variable or function is written after the variable or function. \n\n// Because Scala does type inference, it is also not necessary to declare type to variables when it looks obvious.",
-      "dateUpdated": "Jan 25, 2017 8:32:04 AM",
+      "text": "val a \u003d 3 // val defines an immutable value\nvar b : Int \u003d 5 // var defines a mutable variable\nprintln(a + b)\n\nb \u003d 42\nprintln(a + b)\n\n//J\u0027ai réussi Scala\n\n// Note that the type of a variable or function is written after the variable or function. \n\n// Because Scala does type inference, it is also not necessary to declare type to variables when it looks obvious.",
+      "dateUpdated": "Feb 8, 2017 12:35:32 PM",
       "config": {
         "enabled": true,
-        "tableHide": true,
+        "tableHide": false,
         "title": true,
         "graph": {
           "mode": "table",
@@ -470,11 +471,12 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "a: Int \u003d 3\nb: Int \u003d 5\n8\nb: Int \u003d 42\n45\n"
+        "msg": "\na: Int \u003d 3\n\nb: Int \u003d 5\n8\n\nb: Int \u003d 42\n45\n"
       },
       "dateCreated": "Jan 25, 2017 8:32:04 AM",
-      "status": "READY",
-      "errorMessage": "",
+      "dateStarted": "Feb 8, 2017 12:34:56 PM",
+      "dateFinished": "Feb 8, 2017 12:34:58 PM",
+      "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
     {
