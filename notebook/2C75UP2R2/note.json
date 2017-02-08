@@ -443,8 +443,8 @@
     },
     {
       "title": "Declaring variables",
-      "text": "val a \u003d 3 // val defines an immutable value\nvar b : Int \u003d 5 // var defines a mutable variable\nprintln(a + b)\n\nb \u003d 42\nprintln(a + b)\n\n//J\u0027ai réussi Scala\n\n// Note that the type of a variable or function is written after the variable or function. \n\n// Because Scala does type inference, it is also not necessary to declare type to variables when it looks obvious.",
-      "dateUpdated": "Feb 8, 2017 12:35:32 PM",
+      "text": "val a \u003d 3 // val defines an immutable value\nvar b : Int \u003d 5 // var defines a mutable variable\nprintln(a + b)\n\nb \u003d 42\nprintln(a + b)\n\nprintln(\"Jai réussi Scala\")\n\n// Note that the type of a variable or function is written after the variable or function. \n\n// Because Scala does type inference, it is also not necessary to declare type to variables when it looks obvious.",
+      "dateUpdated": "Feb 8, 2017 12:44:47 PM",
       "config": {
         "enabled": true,
         "tableHide": false,
@@ -471,11 +471,11 @@
       "result": {
         "code": "SUCCESS",
         "type": "TEXT",
-        "msg": "\na: Int \u003d 3\n\nb: Int \u003d 5\n8\n\nb: Int \u003d 42\n45\n"
+        "msg": "\na: Int \u003d 3\n\nb: Int \u003d 5\n8\n\nb: Int \u003d 42\n45\nJai réussi Scala\n"
       },
       "dateCreated": "Jan 25, 2017 8:32:04 AM",
-      "dateStarted": "Feb 8, 2017 12:34:56 PM",
-      "dateFinished": "Feb 8, 2017 12:34:58 PM",
+      "dateStarted": "Feb 8, 2017 12:44:47 PM",
+      "dateFinished": "Feb 8, 2017 12:44:49 PM",
       "status": "FINISHED",
       "progressUpdateIntervalMs": 500
     },
